@@ -14,14 +14,12 @@ is used to navigate between the two screens in the app.
 ### Light Screenshots
 
 ![light mode current weather](Documentation/current_light.png)
-
 ![light mode 3 day weather](Documentation/3day_light.png)
 
 
 ### Dark Screenshots
 
 ![dark mode current weather](Documentation/current_dark.png)
-
 ![dark mode 3 day weather](Documentation/3day_dark.png)
 
 > **Current To Dos:**
