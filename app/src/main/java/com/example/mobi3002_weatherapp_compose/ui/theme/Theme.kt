@@ -16,32 +16,32 @@ import androidx.compose.ui.platform.LocalView
 import androidx.core.view.WindowCompat
 
 private val DarkColorScheme = darkColorScheme(
-    primary = Purple80,
-    secondary = PurpleGrey80,
-    tertiary = Pink80
+    primary = primary_dark,
+    secondary = secondary_dark,
+    tertiary = tertiary_dark,
+    background = background_dark,
+    onBackground = on_background_dark,
+    onPrimary = on_primary_dark,
+    primaryContainer = primary_container_dark,
+    onPrimaryContainer = on_primary_container_dark
 )
 
 private val LightColorScheme = lightColorScheme(
-    primary = Purple40,
-    secondary = PurpleGrey40,
-    tertiary = Pink40
-
-    /* Other default colors to override
-    background = Color(0xFFFFFBFE),
-    surface = Color(0xFFFFFBFE),
-    onPrimary = Color.White,
-    onSecondary = Color.White,
-    onTertiary = Color.White,
-    onBackground = Color(0xFF1C1B1F),
-    onSurface = Color(0xFF1C1B1F),
-    */
+    primary = primary_light,
+    secondary = secondary_light,
+    tertiary = tertiary_light,
+    background = background,
+    onBackground = on_background,
+    onPrimary = on_primary_light,
+    primaryContainer = primary_container_light,
+    onPrimaryContainer = on_primary_container_light
 )
 
 @Composable
 fun MOBI3002_WeatherApp_ComposeTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     // Dynamic color is available on Android 12+
-    dynamicColor: Boolean = true,
+    dynamicColor: Boolean = false,
     content: @Composable () -> Unit
 ) {
     val colorScheme = when {
